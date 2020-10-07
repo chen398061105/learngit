@@ -9,13 +9,14 @@ git init
 2向本地仓库添加文件
 
 选项 git-commit->master 里面添加
+
 查看本地仓库
 
 Repo-browser 里面查看
 
+查看历史
 
-
-
+show-logs 选项
 
 
 

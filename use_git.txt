@@ -18,8 +18,12 @@ Repo-browser 里面查看
 
 show-logs 选项
 
+生成密匙
+ssh-keygen -t rsa
 
+当前用户的保存的地方：.ssh文件 id_rsa.pub文件
 
+复制到 GitHub 的设置 ssh里面追加一个key
 
 
 

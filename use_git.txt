@@ -26,22 +26,64 @@ ssh-keygen -t rsa
 复制到 GitHub 的设置 ssh里面追加一个key
 
 
+--------------搭建私有仓库
+
+git安装环境
+ yum -y install curl curl-devel zlib-devel openssl-devel perl cpio expat-devel gettext-devel gcc cc
+
+删除已有的git
+
+yum remove git
+　　
+　　
+　下载git安装包
+
+wget https://www.kernel.org/pub/software/scm/git/git-2.8.3.tar.gz
+
+　解压git安装包
+
+　　　　tar -zxvf git-2.8.3.tar.gz
+
+　　　　cd git-2.8.3
+
+
+autoconf
+
+./configure
+
+make && make install
 
 
 
+添加远程用户
+adduser -r -c 'git version control' -d /home/git -m git
 
+设置用户git 的密码 passwd git
 
+切换git用户
+初始化 git init --bare 纯仓库 没有工作目录
 
+-------------
 
+新建 私
+git--设置选项
+Git-remote 里面添加一个
+Remote：随便
+URL：ssh://用户名@linux ip地址/home/git/cxw3980（仓库地址）
 
+------------
+git如何卸载
+<1.>找到git的位置
 
+终端命令:which -a git
 
+<2.>cd进入git所在的目录
 
+终端命令:cd /usr/bin/git(这个是一般的默认位置)
 
+<3.>删除命令
 
-
-
-
+终端命令:sudo rm -rf git*
 
 
 

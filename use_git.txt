@@ -75,9 +75,9 @@ URL：ssh://用户名@linux ip地址/home/git/cxw3980（仓库地址）
 
 分支
 
+create branch选项
 
-
-
+分支合并会产生新的分支
 
 
 

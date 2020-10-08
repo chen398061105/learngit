@@ -71,6 +71,19 @@ Git-remote 里面添加一个
 Remote：随便
 URL：ssh://用户名@linux ip地址/home/git/cxw3980（仓库地址）
 
+
+
+分支
+
+
+
+
+
+
+
+
+
+
 ------------
 git如何卸载
 <1.>找到git的位置

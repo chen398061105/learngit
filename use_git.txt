@@ -78,7 +78,7 @@ URL：ssh://用户名@linux ip地址/home/git/cxw3980（仓库地址）
 create branch选项
 
 分支合并会产生新的分支
-
+切换到主分支 master 选择合并 选择要被合并的分支
 
 
 
